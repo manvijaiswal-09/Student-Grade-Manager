@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Grade Manager</h1>
+        <p class="subtitle"> Track student performance in real-time</p>
+   
+    <div class="stats" id="status">
+        <div class="status-box">
+            <div class="label">Total</div>
+            <div class="value" id="total">0</div>
+        </div>
+        <div class="status-box">
+            <div class="label">Average</div>
+            <div class="value" id="average">0</div>
+        </div>
+        <div class="status-box">
+            <div class="label">Pass</div>
+            <div class="value" id="pass">0</div>
+        </div>
+        <div class="status-box">
+            <div class="label">Fail</div>
+            <div class="value" id="fail">0</div>
+        </div>
+        
+    </div>
+       <div class="form-card">
+            <div class="form-row">
+            <input type="text" id="nameInput" placeholder="Student Name" >
+            <input type="number" id="marksInput" placeholder="Marks(1-100)">
+             <button id="addBtn">+ Add</button>
+           
+            </div>
+
+            <div class="error-msg" id="errorMsg">
+                &#9888 please enter valid name and marks (0-100)
+            </div>
+    </div>
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search student by name...">
+    </div>
+    <div class="list-card">
+        <div class="list-header">
+            <span>Name</span>
+            <span>Marks</span>
+            <span>Grade</span>
+            <span>Status</span>
+            <span>Action</span>
+
+        </div>
+        <div id="studentList">
+            
+        </div>
+    </div>
+     </div>
+    
+   
+
+    
+</body>
+<script src="script.js"></script>
+</html>
