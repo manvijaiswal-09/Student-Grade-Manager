@@ -2,6 +2,8 @@
 
 A simple and interactive web application to manage student marks, calculate grades, and track student performance in real-time.
 
+🔗 *Live Demo:* [View Project](YOUR_LIVE_LINK_HERE)
+
 ## 🚀 Features
 
 - ➕ Add student name and marks
